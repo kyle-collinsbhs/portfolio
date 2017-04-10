@@ -1,1 +1,95 @@
-ejd;kmweojfoijfsODIz
+@font-face {
+    font-family: 'chunkfive';
+    src: url('fonts/chunkfive-website.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'opensans-regular';
+    src: url('fonts/opensans-regular-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	background-color: #16BAc5;
+}
+
+/*NAV BAR*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+.main-nav {
+	text-align: center;
+	padding: 20px 0;
+}
+
+.main-nav li {
+	display: inline-block;
+	margin: 0 20px;
+}
+
+li a {
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'opensans-regular', sans-serif;
+    font-size: 24px;
+}
+
+ /* unvisited link */
+a:link {
+    color: #20245b;
+}
+
+/* visited link */
+a:visited {
+    color: #20245b;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FFF;
+}
+
+/* selected link */
+a:active {
+    color: #FFF;
+} 
+
+h1,h2 {
+	color: #20245b;
+	font-family: 'opensans-regular', sans-serif;
+}
+
+p {
+	color: #EFE9F4; 
+	font-size: 18px;
+	line-height: 34px;
+	font-family: 'opensans-regular', sans-serif;
+}
+
+img {
+	text-align: center;
+}
+
+.communities-img-wrap {
+	padding: 1.5rem 0;
+}
+
+.communities-img-wrap a {
+	display: inline-block;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 20px;
+}
+
